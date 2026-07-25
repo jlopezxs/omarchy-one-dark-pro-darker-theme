@@ -1,0 +1,92 @@
+# Theme: One Dark Pro Darker
+# Based on Binaryify/OneDark-Pro oneDarkProDarker
+
+# Main bg
+theme[main_bg]="#1e2227"
+
+# Main text color
+theme[main_fg]="#abb2bf"
+
+# Title color for boxes
+theme[title]="#61afef"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#d19a66"
+
+# Background color of selected item in processes box
+theme[selected_bg]="#2c313a"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#8cc265"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#495162"
+
+# Color of text appearing on top of graphs
+theme[graph_text]="#56b6c2"
+
+# Background color of the percentage meters
+theme[meter_bg]="#3e4452"
+
+# Misc colors for processes box
+theme[proc_misc]="#c678dd"
+
+# Cpu box outline color
+theme[cpu_box]="#e05561"
+
+# Memory/disks box outline color
+theme[mem_box]="#8cc265"
+
+# Net up/down box outline color
+theme[net_box]="#56b6c2"
+
+# Processes box outline color
+theme[proc_box]="#d19a66"
+
+# Box divider line and small boxes line color
+theme[div_line]="#495162"
+
+# Temperature graph colors
+theme[temp_start]="#8cc265"
+theme[temp_mid]="#d19a66"
+theme[temp_end]="#e05561"
+
+# CPU graph colors
+theme[cpu_start]="#8cc265"
+theme[cpu_mid]="#d19a66"
+theme[cpu_end]="#e05561"
+
+# Mem/Disk free meter
+theme[free_start]="#56b6c2"
+theme[free_mid]="#56b6c2"
+theme[free_end]="#56b6c2"
+
+# Mem/Disk cached meter
+theme[cached_start]="#61afef"
+theme[cached_mid]="#61afef"
+theme[cached_end]="#61afef"
+
+# Mem/Disk available meter
+theme[available_start]="#8cc265"
+theme[available_mid]="#8cc265"
+theme[available_end]="#8cc265"
+
+# Mem/Disk used meter
+theme[used_start]="#e05561"
+theme[used_mid]="#e05561"
+theme[used_end]="#e05561"
+
+# Download graph colors
+theme[download_start]="#8cc265"
+theme[download_mid]="#56b6c2"
+theme[download_end]="#56b6c2"
+
+# Upload graph colors
+theme[upload_start]="#d19a66"
+theme[upload_mid]="#e05561"
+theme[upload_end]="#e05561"
+
+# Process box color gradient
+theme[process_start]="#8cc265"
+theme[process_mid]="#56b6c2"
+theme[process_end]="#56b6c2"

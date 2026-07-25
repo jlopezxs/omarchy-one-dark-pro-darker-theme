@@ -1,0 +1,132 @@
+@define-color selected-text #61afef;
+@define-color text #abb2bf;
+@define-color base #1e2227;
+@define-color border #61afef;
+@define-color foreground #abb2bf;
+@define-color background #1e2227;
+
+@define-color hover #61afef;
+@define-color accent #1e2227;
+@define-color muted #1e2227;
+
+window {
+    background: transparent;
+}
+
+window * {
+    all: unset;
+
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+}
+
+window .normal-icons,
+window .large-icons,
+window .item-image,
+window .symbols {
+    -gtk-icon-size: 18px;
+    min-width: 0;
+    min-height: 0;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+window .box-wrapper {
+    border: 1px solid transparent;
+    border-radius: 0;
+    padding: 4px;
+    margin: 0;
+    box-shadow: none;
+    line-height: 10%;
+    background-image:
+        linear-gradient(#181a1f, #181a1f),
+        linear-gradient(to top, #61afef, #c678dd, #d19a66);
+    background-origin: border-box, border-box;
+    background-clip: padding-box, border-box;
+}
+
+window .search-container {
+    border: none;
+    border-radius: 0;
+    padding: 4px 6px;
+    margin: 0;
+    background: #181a1f;
+    box-shadow: none;
+    line-height: 1em;
+}
+
+window .search-container text,
+window .input {
+    color: @text;
+    caret-color: @text;
+}
+
+window .search-container .placeholder,
+window .search-container entry placeholder {
+    color: @text;
+    opacity: 0.6;
+}
+
+window .input {
+    background: transparent;
+    color: @text;
+}
+
+window .preview {
+    border: none;
+    border-radius: 0;
+    background: #181a1f;
+    color: @text;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: none;
+    line-height: 1em;
+}
+
+window child {
+    background: transparent;
+    color: @text;
+    border: none;
+    border-left: 2px solid transparent;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    transition: transform 180ms cubic-bezier(0.23, 1, 0.32, 1),
+        color 180ms ease,
+        background-color 180ms ease,
+        border-color 180ms ease;
+    will-change: transform, opacity;
+}
+
+window child:selected,
+window child:focus,
+window child:checked {
+    background: #323842;
+    color: @selected-text;
+    border: none;
+    border-left: 2px solid @border;
+    font-weight: 600;
+    transform: translateX(2px) scale(1.02);
+}
+
+window child:active {
+    background: @accent;
+    color: @foreground;
+    border: none;
+    border-left: 2px solid @border;
+    transform: translateX(0) scale(0.995);
+}
+
+child:selected .item-box {
+    background-color: #323842;
+}
+
+window child:selected .item-box *,
+window child:focus .item-box *,
+window child:checked .item-box * {
+    color: @selected-text;
+}

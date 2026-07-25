@@ -1,0 +1,54 @@
+[colors.primary]
+foreground = "#abb2bf"
+background = "#1e2227"
+dim_foreground = "#495162"
+bright_foreground = "#d7dae0"
+
+[colors.cursor]
+text = "#1e2227"
+cursor = "#528bff"
+
+[colors.vi_mode_cursor]
+text = "#1e2227"
+cursor = "#61afef"
+
+[colors.search.matches]
+foreground = "#abb2bf"
+background = "#3e4452"
+
+[colors.search.focused_match]
+foreground = "#1e2227"
+background = "#d19a66"
+
+[colors.hints.start]
+foreground = "#abb2bf"
+background = "#3e4452"
+
+[colors.hints.end]
+foreground = "#d7dae0"
+background = "#3e4452"
+
+[colors.selection]
+text = "#1e2227"
+background = "#61afef"
+
+[colors.normal]
+black = "#3f4451"
+red = "#e05561"
+green = "#8cc265"
+yellow = "#d18f52"
+blue = "#4aa5f0"
+magenta = "#c162de"
+cyan = "#42b3c2"
+white = "#d7dae0"
+
+[colors.bright]
+# Impala/bluetui selected row = Color::DarkGray (ANSI 8) bg + White fg
+black = "#61afef"
+red = "#ff616e"
+green = "#a5e075"
+yellow = "#f0a45d"
+blue = "#4dc4ff"
+magenta = "#de73ff"
+cyan = "#4cd1e0"
+white = "#e6e6e6"
