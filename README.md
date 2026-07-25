@@ -23,7 +23,6 @@ omarchy-theme-install https://github.com/jlopezxs/omarchy-one-dark-pro-darker-th
 
 ## ✨ Features
 
-<div align="center">
 
 | | Feature | Description |
 |:---:|:---|:---|
@@ -38,8 +37,6 @@ omarchy-theme-install https://github.com/jlopezxs/omarchy-one-dark-pro-darker-th
 | 🎮 | **Extras** | Steam · Vencord · Obsidian · Pi · Omarchy shell · Aether overrides |
 | 🖼️ | **Wallpapers** | Curated dark wallpapers bundled in `backgrounds/` |
 
-</div>
-
 ---
 
 ## Neovim note
@@ -47,8 +44,6 @@ omarchy-theme-install https://github.com/jlopezxs/omarchy-one-dark-pro-darker-th
 `neovim.lua` uses [`olimorris/onedarkpro.nvim`](https://github.com/olimorris/onedarkpro.nvim) with the `onedark_dark` colorscheme and background overrides matching this theme (`#23272e` / `#1e2227`).
 
 ## 🎨 Color Palette
-
-<div align="center">
 
 | Swatch | Name | Hex |
 |:---:|:---|:---:|
@@ -65,7 +60,6 @@ omarchy-theme-install https://github.com/jlopezxs/omarchy-one-dark-pro-darker-th
 | ![](https://placehold.co/40x20/42b3c2/42b3c2) | Cyan | `#42b3c2` |
 | ![](https://placehold.co/40x20/495162/495162) | Muted | `#495162` |
 
-</div>
 
 Palette from [`oneDarkProDarker.ts`](https://github.com/Binaryify/OneDark-Pro/blob/master/src/themes/data/oneDarkProDarker.ts). Full tokens live in [`colors.toml`](colors.toml).
 
