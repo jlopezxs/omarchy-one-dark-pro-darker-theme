@@ -24,7 +24,7 @@ omarchy-theme-install https://github.com/jlopezxs/omarchy-one-dark-pro-darker-th
 - Editors: Neovim (`neovim.lua`), Helix (`helix.toml`), VS Code (`vscode.json`, `vscode-theme.json`), Zed (`aether.zed.json`)
 - Extras: Steam (`steam.css`), Vencord (`vencord.theme.css`), Obsidian (`obsidian.css`), Pi (`pi.json`), Omarchy shell (`shell.toml`), icons (`icons.theme`)
 - Aether theme overrides (`aether.override.css`, `aether.zed.json`)
-- Unlock / Plymouth: `unlock.png`, `preview-unlock.png` (listed under Style > Unlock)
+
 ## Neovim note
 
 `neovim.lua` uses [`olimorris/onedarkpro.nvim`](https://github.com/olimorris/onedarkpro.nvim) with the `onedark_dark` colorscheme and background overrides matching this theme (`#23272e` / `#1e2227`).
