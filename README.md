@@ -1,8 +1,17 @@
-# Omarchy One Dark Pro Darker
+<div align="center">
 
-Dark [One Dark Pro Darker](https://github.com/Binaryify/OneDark-Pro) palette for Omarchy/Hyprland, with matching terminal, UI, and app themes plus a small wallpaper set.
+# 🌑 One Dark Pro Darker
+
+> *"Atom's iconic One Dark — pushed deeper into the night."*
+
+A carefully crafted **Hyprland** theme for **Omarchy** — the classic **One Dark Pro Darker** palette  
+with cool blues, soft magentas, and warm orange accents on a deeper charcoal canvas.
+
+<br>
 
 ![Omarchy One Dark Pro Darker preview](preview.png)
+
+</div>
 
 ## Install
 
@@ -12,55 +21,60 @@ Use the Omarchy theme installer:
 omarchy-theme-install https://github.com/jlopezxs/omarchy-one-dark-pro-darker-theme
 ```
 
-## What's included
+## ✨ Features
 
-- Hyprland rules and opacity tuning (`hyprland.conf`, `hyprland.lua`)
-- Hyprlock styling (`hyprlock.conf`)
-- Waybar colors (`waybar.css`)
-- Terminals: Alacritty (`alacritty.toml`), Kitty (`kitty.conf`), Ghostty (`ghostty.conf`), Foot (`foot.ini`), Warp (`warp.yaml`)
-- Shell/tools: Fish colors (`colors.fish`), fzf (`fzf.fish`), Gum (`gum_env.lua`)
-- Apps/UI: GTK (`gtk.css`), Chromium (`chromium.theme`), Firefox (`firefox.css`), Wofi (`wofi.css`), Walker (`walker.css`)
-- System tools: btop (`btop.theme`), cava (`cava_theme`), mako (`mako.ini`), SwayOSD (`swayosd.css`)
-- Editors: Neovim (`neovim.lua`), Helix (`helix.toml`), VS Code (`vscode.json`, `vscode-theme.json`), Zed (`aether.zed.json`)
-- Extras: Steam (`steam.css`), Vencord (`vencord.theme.css`), Obsidian (`obsidian.css`), Pi (`pi.json`), Omarchy shell (`shell.toml`), icons (`icons.theme`)
-- Aether theme overrides (`aether.override.css`, `aether.zed.json`)
+<div align="center">
+
+| | Feature | Description |
+|:---:|:---|:---|
+| 🪟 | **Hyprland** | Active border gradient, blur, and opacity tuning (`hyprland.conf`, `hyprland.lua`) |
+| 🔒 | **Hyprlock** | Lock screen styled to the One Dark Pro Darker palette |
+| 📊 | **Waybar** | Status bar colors matched to the theme |
+| 💻 | **Terminals** | Alacritty · Kitty · Ghostty · Foot · Warp |
+| 🐚 | **Shell & CLI** | Fish colors · fzf · Gum · cava · btop |
+| 🚀 | **Launchers** | Walker and Wofi with matching UI chrome |
+| 🎨 | **GTK & Desktop** | GTK/Adwaita · Chromium · Firefox · Mako · SwayOSD · icons |
+| 📝 | **Editors** | Neovim · Helix · VS Code · Zed |
+| 🎮 | **Extras** | Steam · Vencord · Obsidian · Pi · Omarchy shell · Aether overrides |
+| 🖼️ | **Wallpapers** | Curated dark wallpapers bundled in `backgrounds/` |
+
+</div>
+
+---
 
 ## Neovim note
 
 `neovim.lua` uses [`olimorris/onedarkpro.nvim`](https://github.com/olimorris/onedarkpro.nvim) with the `onedark_dark` colorscheme and background overrides matching this theme (`#23272e` / `#1e2227`).
 
-## Colors
+## 🎨 Color Palette
+
+<div align="center">
+
+| Swatch | Name | Hex |
+|:---:|:---|:---:|
+| ![](https://placehold.co/40x20/1e2227/1e2227) | Background | `#1e2227` |
+| ![](https://placehold.co/40x20/181a1f/181a1f) | Dark Background | `#181a1f` |
+| ![](https://placehold.co/40x20/abb2bf/abb2bf) | Foreground | `#abb2bf` |
+| ![](https://placehold.co/40x20/61afef/61afef) | Accent Blue | `#61afef` |
+| ![](https://placehold.co/40x20/528bff/528bff) | Cursor | `#528bff` |
+| ![](https://placehold.co/40x20/e05561/e05561) | Red | `#e05561` |
+| ![](https://placehold.co/40x20/8cc265/8cc265) | Green | `#8cc265` |
+| ![](https://placehold.co/40x20/d18f52/d18f52) | Yellow | `#d18f52` |
+| ![](https://placehold.co/40x20/d19a66/d19a66) | Orange | `#d19a66` |
+| ![](https://placehold.co/40x20/c162de/c162de) | Magenta | `#c162de` |
+| ![](https://placehold.co/40x20/42b3c2/42b3c2) | Cyan | `#42b3c2` |
+| ![](https://placehold.co/40x20/495162/495162) | Muted | `#495162` |
+
+</div>
 
 Palette from [`oneDarkProDarker.ts`](https://github.com/Binaryify/OneDark-Pro/blob/master/src/themes/data/oneDarkProDarker.ts). Full tokens live in [`colors.toml`](colors.toml).
-
-| Role | Hex |
-|------|-----|
-| Background | `#1e2227` |
-| Dark background | `#181a1f` |
-| Foreground | `#abb2bf` |
-| Accent | `#61afef` |
-| Cursor | `#528bff` |
-| Selection | `#61afef` |
-| Red | `#e05561` |
-| Green | `#8cc265` |
-| Yellow | `#d18f52` |
-| Magenta | `#c162de` |
-| Cyan | `#42b3c2` |
-| Orange | `#d19a66` |
-| Muted | `#495162` |
-
-### ANSI
-
-| | Black | Red | Green | Yellow | Blue | Magenta | Cyan | White |
-|---|-------|-----|-------|--------|------|---------|------|-------|
-| Normal | `#3f4451` | `#e05561` | `#8cc265` | `#d18f52` | `#4aa5f0` | `#c162de` | `#42b3c2` | `#d7dae0` |
-| Bright | `#61afef` | `#ff616e` | `#a5e075` | `#f0a45d` | `#4dc4ff` | `#de73ff` | `#4cd1e0` | `#e6e6e6` |
 
 ## Screenshots
 
 | | |
 | --- | --- |
-| ![](media/preview-2.png) | ![](media/preview-3.png) |
+| ![](preview.png) | ![](media/preview-2.png) |
+| ![](media/preview-3.png) | |
 
 ## Wallpapers
 
@@ -73,3 +87,4 @@ Palette from [`oneDarkProDarker.ts`](https://github.com/Binaryify/OneDark-Pro/bl
 
 - One Dark Pro palette by Binaryify: <https://github.com/Binaryify/OneDark-Pro>
 - Multi-app theme layout inspired by [omarchy-miasma-theme](https://github.com/OldJobobo/omarchy-miasma-theme)
+- README intro style inspired by [Copper Night](https://github.com/hembramnishant50-glitch/omarchy-coppernight-theme)
