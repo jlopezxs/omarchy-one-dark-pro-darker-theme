@@ -26,7 +26,7 @@ omarchy-theme-install https://github.com/jlopezxs/omarchy-one-dark-pro-darker-th
 
 | | Feature | Description |
 |:---:|:---|:---|
-| 🪟 | **Hyprland** | Active border gradient, blur, and opacity tuning (`hyprland.conf`, `hyprland.lua`) |
+| 🪟 | **Hyprland** | Active border gradient, group bar, Walker animations, blur, and opacity tuning (`hyprland.conf`) |
 | 🔒 | **Hyprlock** | Lock screen styled to the One Dark Pro Darker palette |
 | 📊 | **Waybar** | Status bar colors matched to the theme |
 | 💻 | **Terminals** | Alacritty · Kitty · Ghostty · Foot · Warp |
